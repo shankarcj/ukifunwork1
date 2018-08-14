@@ -3,79 +3,146 @@ SC.initialize({
 });
 
 $(document).ready(function() {
-  SC.stream('/tracks/438430806',function(sound){
-  $('#start').click(function(e) {
-             e.preventDefault();
-             sound.start();
-           });
-  $('#stop').click(function(e) {
-             e.preventDefault();
-             sound.stop();
-            });
-    });
-}); // laali laali
+  SC.stream('/tracks/267806421',function(sound){
+    $('#start').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+    $('#stop').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+        });
+  });
 
-$(document).ready(function() {
-  SC.stream('/tracks/400360410',function(sound){
-  $('#start').click(function(e) {
-             e.preventDefault();
-             sound.start();
-           });
-  $('#stop').click(function(e) {
-             e.preventDefault();
-             sound.stop();
-            });
-    });
-});  // yaayum
+ SC.stream('/tracks/340155138',function(sound){
+    $('#start1').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+    $('#stop1').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+        });
+  });
 
-$(document).ready(function() {
-  SC.stream('/tracks/464043330',function(sound){
-  $('#start').click(function(e) {
-             e.preventDefault();
-             sound.start();
-           });
-  $('#stop').click(function(e) {
-             e.preventDefault();
-             sound.stop();
-            });
-    });
-}); // pondattee
 
-$(document).ready(function() {
-  SC.stream('/tracks/456435057',function(sound){
-  $('#start').click(function(e) {
-             e.preventDefault();
-             sound.start();
-           });
-  $('#stop').click(function(e) {
-             e.preventDefault();
-             sound.stop();
-            });
-    });
-}); // yei penne en nenjil
 
-$(document).ready(function() {
-  SC.stream('/tracks/394655895',function(sound){
-  $('#start').click(function(e) {
-             e.preventDefault();
-             sound.start();
-           });
-  $('#stop').click(function(e) {
-             e.preventDefault();
-             sound.stop();
-            });
-    });
-}); // seramal ponaal
+  SC.stream('/tracks/362640818',function(sound){
+    $('#start2').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+    $('#stop2').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+        });
+  });
 
-$(document).ready(function() {
-  SC.stream('/tracks/242542934',function(sound){
-  $('#start').click(function(e) {
-             e.preventDefault();
-             sound.start();
-           });
-  $('#stop').click(function(e) {
-             e.preventDefault();
-             sound.stop();
-            });
-    });
-}); // thalli pogathe
+
+
+  SC.stream('/tracks/256119085',function(sound){
+    $('#start3').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+    $('#stop3').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+        });
+  });
+
+
+
+  SC.stream('/tracks/206493559',function(sound){
+    $('#start4').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+    $('#stop4').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+        });
+  });
+
+
+
+  SC.stream('/tracks/291358852',function(sound){
+    $('#start5').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+    $('#stop5').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+        });
+  });
+
+  SC.stream('/tracks/311739188',function(sound){
+    $('#start6').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+    $('#stop6').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+        });
+  });
+
+  SC.stream('/tracks/311971479',function(sound){
+    $('#start7').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+    $('#stop7').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+        });
+  });
+
+  SC.stream('/tracks/225519099',function(sound){
+    $('#start8').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+    $('#stop8').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+        });
+  });
+
+  SC.stream('/tracks/315401304',function(sound){
+    $('#start9').click(function(e) {
+           e.preventDefault();
+           sound.start();
+         });
+    $('#stop9').click(function(e) {
+           e.preventDefault();
+           sound.stop();
+        });
+  });
+
+
+SC.stream('/tracks/363589097',function(sound){
+  $('#start10').click(function(e) {
+         e.preventDefault();
+         sound.start();
+       });
+  $('#stop10').click(function(e) {
+         e.preventDefault();
+         sound.stop();
+      });
+});
+
+
+SC.stream('/tracks/407128221',function(sound){
+  $('#start11').click(function(e) {
+         e.preventDefault();
+         sound.start();
+       });
+  $('#stop11').click(function(e) {
+         e.preventDefault();
+         sound.stop();
+      });
+  });
+
+});
