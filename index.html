@@ -1,332 +1,154 @@
 <!DOCTYPE HTML>
-
-
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-		<title>My Music Cloud</title>
+		<title>Sound WAVE</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="jquery-3.3.1.js"></script>
-		<script src="jquery-3.3.1.min.js"></script>
-		<script src="//connect.soundcloud.com/sdk.js"></script>
-		<script src="main.js"></script>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	<body class="is-preload">
 
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-		 <!-- Header
-			<header id="header">
-				<h1><a href="#">My Music Cloud<span> by:Babitha</span></a></h1>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Sound</strong> <span>WAVE</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
 
-			</header> -->
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="landing.html">Landing</a></li>
+							<li><a href="generic.html">Generic</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
 
-<!--
-			 Banner
-
-				To use a video as your background, set data-video to the name of your video without
-				its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
-				formats to work correctly.
-
-
-		 Main
-			 <div id="main">
-
-
-
-									 Tab 1
-										 <div class="tab tab-1 flex flex-3 active">
-											 Video Thumbnail
-												 <div class="video col">
-													<div class="image fit">
-														<img src="images/0.jpeg" alt="" />
-                            <div class="arrow">
-															<button type="button" name="button" id="start">start</button>
-															<button type="button" name="button" id="stop">stop</button>
-														</div>
-													</div>
-
-												</div>
-											 Video Thumbnail
-												<div class="video col">
-													<div class="image fit">
-														<img src="images/1.jpeg" alt="" />
-
-														<div class="arrow">
-															<button type="button" name="button" id="start1">start</button>
-															<button type="button" name="button" id="stop1">stop</button>
-														</div>
-													</div>
-
-												</div>
-											 Video Thumbnail
-												<div class="video col">
-													<div class="image fit">
-														<img src="images/2.jpeg" alt="" />
-
-														<div class="arrow">
-															<button type="button" name="button" id="start2">start</button>
-															<button type="button" name="button" id="stop2">stop</button>
-														</div>
-													</div>
-
-												</div>
-
-
-
-												<br>
-											 Video Thumbnail
-												<div class="video col">
-													<div class="image fit">
-														<img src="images/3.jpeg" alt="" />
-
-														<div class="arrow">
-															<button type="button" name="button" id="start3">start</button>
-															<button type="button" name="button" id="stop3">stop</button>
-														</div>
-													</div>
-												</div>
-											 Video Thumbnail
-												<div class="video col">
-													<div class="image fit">
-														<img src="images/4.jpeg" alt="" />
-
-														<div class="arrow">
-															<button type="button" name="button" id="start4">start</button>
-															<button type="button" name="button" id="stop4">stop</button>
-														</div>
-													</div>
-
-												</div>
-											 Video Thumbnail
-												<div class="video col">
-													<div class="image fit">
-														<img src="images/5.jpeg" alt="" />
-
-														<div class="arrow">
-															<button type="button" name="button" id="start5">start</button>
-															<button type="button" name="button" id="stop5">stop</button>
-														</div>
-													</div>
-												</div>
-												<div class="video col">
-													<div class="image fit">
-														<img src="images/6.jpeg" alt="" />
-
-														<div class="arrow">
-															<button type="button" name="button" id="start6">start</button>
-															<button type="button" name="button" id="stop6">stop</button>
-														</div>
-													</div>
-
-												</div>
-												 Video Thumbnail
-												<div class="video col">
-													<div class="image fit">
-														<img src="images/7.jpeg" alt="" />
-
-														<div class="arrow">
-															<button type="button" name="button" id="start7">start</button>
-															<button type="button" name="button" id="stop7">stop</button>
-														</div>
-													</div>
-
-												</div>
-												 Video Thumbnail
-												<div class="video col">
-													<div class="image fit">
-														<img src="images/8.jpeg" alt="" />
-
-														<div class="arrow">
-															<button type="button" name="button" id="start8">start</button>
-															<button type="button" name="button" id="stop8">stop</button>
-														</div>
-													</div>
-
-												</div>
-												 Video Thumbnail
-												<div class="video col">
-													<div class="image fit">
-														<img src="images/9.jpeg" alt="" />
-
-
-														<div class="arrow">
-															<button type="button" name="button" id="start9">start</button>
-															<button type="button" name="button" id="stop9">stop</button>
-														</div>
-													</div>
-												</div>
-												 Video Thumbnail
-												<div class="video col">
-													<div class="image fit">
-														<img src="images/10.jpeg" alt="" />
-
-														<div class="arrow">
-															<button type="button" name="button" id="start10">start</button>
-															<button type="button" name="button" id="stop10">stop</button>
-														</div>
-													</div>
-												</div>
-
-												<div class="video col">
-													<div class="image fit">
-														<img src="images/11.jpeg" alt="" />
-
-														<div class="arrow">
-															<button type="button" name="button" id="start11">start</button>
-															<button type="button" name="button" id="stop11">stop</button>
-														</div>
-													</div>
-												</div>
-				</section>
-
-
-		 Scripts
-			 <script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>  -->
-
-			<body class="is-preload">
-
-				<!-- Wrapper -->
-					<div id="wrapper">
-
-						<!-- Header -->
-						<!-- Note: The "styleN" class below should match that of the banner element. -->
-							<header id="header" class="alt style2">
-								<a href="index.html" class="logo"><strong>SounD</strong> <span>WAVE</span></a>
-								<nav>
-									<a href="#menu">Menu</a>
-								</nav>
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h1>SounD WAVE</h1>
 							</header>
-
-						<!-- Menu -->
-							<nav id="menu">
-								<ul class="links">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="landing.html">Landing</a></li>
-									<li><a href="generic.html">Generic</a></li>
-									<li><a href="elements.html">Elements</a></li>
+							<div class="content">
+								<p>Music is Part Of Human Soul</p>
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">Get Into Soul</a></li>
 								</ul>
-								<ul class="actions stacked">
-									<li><a href="#" class="button primary fit">Get Started</a></li>
-									<li><a href="#" class="button fit">Log In</a></li>
-								</ul>
-							</nav>
+							</div>
+						</div>
+					</section>
 
-						<!-- Banner -->
-						<!-- Note: The "styleN" class below should match that of the header element. -->
-							<section id="banner" class="style2">
-								<div class="inner">
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
 									<span class="image">
-										<img src="images/pic07.jpg" alt="" />
+										<img src="images/pic01.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h1>A.R.RAHMAN HITS</h1>
+										<h3><a href="rahman.html" class="link">A.R.Rahaman</a></h3>
+										<!-- <p>Ipsum dolor sit amet</p> -->
 									</header>
-									<div class="content">
-										<p>A.R.RAHAMAN best music compos<br>
-											 </p>
-									</div>
-								</div>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="Sid.html" class="link">Sid Sriram</a></h3>
+										<!-- <p>feugiat amet tempus</p> -->
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic03.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="ben.html" class="link">Benny Dayal</a></h3>
+										<!-- <p>Lorem etiam nullam</p> -->
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic04.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="leo.html" class="link">Leon Jmes</a></h3>
+										<!-- <p>Nisl sed aliquam</p> -->
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic05.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="sai.html" class="link">Mc Sai</a></h3>
+										<!-- <p>Ipsum dolor sit amet</p> -->
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic06.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="tee.html" class="link">TeeJey</a></h3>
+										<!-- <p>Feugiat amet tempus</p> -->
+									</header>
+								</article>
 							</section>
 
-						<!-- Main -->
-							<div id="main">
+						<!-- Two -->
 
-								<!-- One -->
-
-
-								<!-- Two -->
-									<section id="two" class="spotlights">
-										<section>
-											<a href="#" class="image">
-												<img src="images/pic08.jpg" alt="" data-position="center center" />
-											</a>
-											<div class="content">
-												<div class="inner">
-													<header class="major">
-														<h3>Kannalane</h3>
-													</header>
-													<p>Kuru</p>
-													<ul class="actions">
-														<li><button class="button" id="start3">Play</button></li>
-														<li><button class="button" id="stop3">Stop</button></li>
-													</ul>
-												</div>
-											</div>
-										</section>
-										<section>
-											<a href="#" class="image">
-												<img src="images/pic09.jpg" alt="" data-position="top center" />
-											</a>
-											<div class="content">
-												<div class="inner">
-													<header class="major">
-														<h3>Uyire Uyire</h3>
-													</header>
-													<p>Bomaby</p>
-													<ul class="actions">
-														<li><button class="button" id="start2">Play</button></li>
-														<li><button class="button"id="stop2">Stop</button></li>
-													</ul>
-												</div>
-											</div>
-										</section>
-										<section>
-											<a href="#" class="image">
-												<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
-											</a>
-											<div class="content">
-												<div class="inner">
-													<header class="major">
-														<h3>Roja Roja</h3>
-													</header>
-													<p>Roja</p>
-													<ul class="actions">
-														<li><button class="button" id="start1">Play</button></li>
-														<li><button class="button" id="stop1">Stop</button></li>
-													</ul>
-												</div>
-											</div>
-										</section>
-									</section>
-
-								<!-- Three -->
-
-							</div>
-
-						<!-- Contact -->
-
-						<!-- Footer -->
-							<footer id="footer">
-								<div class="inner">
-									<ul class="icons">
-										<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									</ul>
-									<ul class="copyright">
-										<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-									</ul>
-								</div>
-							</footer>
 
 					</div>
 
-				<!-- Scripts -->
-					<!-- <script src="assets/js/jquery.min.js"></script> -->
-					 <!-- <script src="assets/js/jquery.scrolly.min.js"></script> -->
-					<!-- <script src="assets/js/jquery.scrollex.min.js"></script> -->
-					<script src="assets/js/browser.min.js"></script>
-					<script src="assets/js/breakpoints.min.js"></script>
-					<script src="assets/js/util.js"></script>
-					<script src="assets/js/main.js"></script>
+				<!-- Contact -->
 
 
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
